@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="form">
+                    <h1 class="txt-center">Formularios</h1>
+                    <h2>Formulario Login</h2>
+                    <form action="pagina.php" method="get">
+                        <input type="text" name="user" id="" placeholder="User"><br><br>
+                        <input type="password" name="password" id="" placeholder="Password"><br><br>
+                        <input type="submit" value="Aceptar">
+                    </form>
+                    <h2>Formulario con registro</h2>
+                    <form action="pagina.php" method="get" class="registro">
+                        <fieldset>
+                        <legend>Registro</legend>
+                        <textarea name="Comentario" id="" rows="10" class="w-100" placeholder="Comentarios"></textarea><br><br>
+                        <input type="text" name="user" id="" placeholder="User" class="w-50" >
+                        <input type="password" name="password" id="" placeholder="Password" class="w-50"><br><br>
+                        Afficiones <br>
+                        <input type="checkbox" name="aficiones" value="Cine" id="">Cine <br>
+                        <input type="checkbox" name="aficiones" value="Viajar" id="">Viajar <br>                    
+                        <input type="checkbox" name="aficiones" value="Leer" id="">Leer <br>
+                        <input type="checkbox" name="aficiones" value="Comer" id="">Comer <br><br>
+                        Sexo <br>
+                        <input type="radio" name="sexo" id="" value="Hombre">Hombre <br>
+                        <input type="radio" name="sexo" id="" value="Mujer">Mujer <br>
+                        <input type="radio" name="sexo" id="" value="otro">No te importa<br><br>
+                        Provincia <br>
+                        <select name="Provincia" id="">
+                            <option value="0" disabled selected>Elija tu provincia favorita</option>
+                            <option value="1">Albacete</option>
+                            <option value="2">Madrid</option>
+                            <option value="3">Toledo</option>
+                            <option value="4">Ciudad Real</option>
+                            <option value="5">Cáceres</option>
+                        </select><br><br>
+                        Provincias </br>
+                        <select name="Provincia" id="" multiple size="5">
+                            <option value="1">Albacete</option>
+                            <option value="2">Madrid</option>
+                            <option value="3">Toledo</option>
+                            <option value="4">Ciudad Real</option>
+                            <option value="5">Cáceres</option>
+                        </select> <br><br>
+                        <input type="submit" value="Aceptar"><br>
+                        <input type="button" value="Pulsa">
+                    </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Alberto Arcones - S1DAM</footer>
+    </div>
+</body>
+</html>

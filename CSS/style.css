@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    background-color: azure;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #CCCCFF;
+}
+header {
+    background-image: url(../img/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+}
+#current_date{
+    color: white;
+    background-color:#0047AB;
+}
+footer {
+    background-color: 	#082567;
+    color: rgb(216, 213, 247);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#principal {
+    /* Hacemos flex para trabajar con la altura de mis hijos */
+    margin:0%;
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 80%;
+    float: right;
+}
+
+#home {
+    background-color: #73C2FB;
+    /* Altura igual que tu padre flex.
+    De esta forma hemos conseguido la altura del menu
+    aunque tenga menos contenido que él
+    */
+    text-align: center;
+    padding-top: 40px;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: #0047AB;
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 20px;
+   border: solid 2px #73C2FB;
+}
+nav ul li:hover {
+    color:  rgb(216, 213, 247);
+    background-color: #0047AB;
+    font-size: 26px;
+    border: solid 2px #f8fafc;
+}
+
+.txt-center{
+    text-align: center;
+}
+p{
+    padding: 0 20px;
+}
+.tag{
+    color: red;
+    font-size: x-large;
+}
+
+#caja{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(98, 173, 238);
+}
+#listas{
+    margin-left: 245px;
+}
+ul.customdisorder li{
+    list-style-type: square;
+}
+ul.customdisorder li li {
+    list-style-type: disc;
+}
+ul.customdisorder li li li {
+    list-style-type:circle;
+}
+/*-----------*/
+ol.customorder li{
+    list-style-type: upper-alpha;
+}
+ol.customorder li li {
+    list-style-type:lower-roman;
+}
+ol.customorder li li li {
+    list-style-type:lower-greek;
+}
+/*----------------------*/
+ol.customimg li{
+list-style-type: decimal;
+}
+ol.customimg li li {
+    list-style-image:url(../img/heart.png);
+}
+ol.customimg li li li {
+    list-style-type:lower-greek;
+    list-style-image: none;
+}
+dt{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+    padding: 0 20px;
+}
+table.theader th{
+    color: rgb(148, 216, 243);
+    background-color: #082567;
+    font-size: 26px;
+}
+table.theader td{
+    color: #082567;
+    background-color:  rgb(148, 216, 243);
+}
+table.theader{
+   margin:0 auto;
+}
+table.impar tr:nth-child(even) {
+    background-color:aquamarine
+}
+
+table.impar tr:nth-child(odd) {
+
+    background-color:violet
+
+ }
+ table.horario th{
+    color:#207167;
+    text-align: center;
+ }
+ table.horario td.prog{
+    color:black;
+    background-color: #ffd231;
+    text-align: center;
+ }
+ table.horario td.BDD{
+    color:black;
+    background-color: #7ffffe;
+    text-align: center;
+ }
+ table.horario td.SI{
+    color:black;
+    background-color:#00b95c;
+    text-align: center;
+ }
+ table.horario th.sinneg{
+    color:#207167;
+    text-align: center;
+    font-weight: normal;
+ }
+ table.horario th.raro{
+    color:#207167;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+ }
+ table.horario th.what{
+    color:#207167;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+ }
+ 
+ table.horario td.LM{
+    background-color:#077bff;
+    text-align: center;
+ }
+ table.horario td.FOL{
+    background-color:#c9a0c8;
+    text-align: center;
+ }
+ table.horario td.ENDE{
+    background-color:#bd7778;
+    text-align: center;
+ }
+ table.horario td.ING{
+    background-color:#96dc96;
+    text-align: center;
+ }
+
+ table.horario{
+    margin: 0 auto;
+ }
+ table.horario{
+    margin: 0 auto;
+ }
+ form.registro{
+    background-color: #96dc96;
+    width: 600px;
+    margin: 40px;
+ }
+ *{
+    box-sizing: border-box;
+ }
+ .w-100{
+    width: 99%;
+ }
+ .w-50{
+    width: 49%;
+ }
+ .centrito{
+    margin-left: 250px;
+ }
+ .centrito2{
+    margin-left: 350px;
+ }
+ #textRango{
+    width: 40px;
+    text-align: center;
+ }
+ #formhtml5 form{
+    width: 400px;
+    margin: 0 auto ;
+    background-color: #96dc96;
+ }
