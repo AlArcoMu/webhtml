@@ -243,3 +243,7 @@ table.impar tr:nth-child(odd) {
     margin: 0 auto ;
     background-color: #96dc96;
  }
+ .giffinal{
+    width: 100px; 
+    height: 100px;
+ }
